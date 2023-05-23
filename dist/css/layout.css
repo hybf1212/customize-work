@@ -1,3 +1,34 @@
 *{
     font-family: 'Montserrat', 'Pretendard-Regular', sans-serif;
 }
+
+.bg-light{
+    background-color: #e6e6e6 !important
+}
+
+*{
+    list-style: none;
+    
+}
+
+.notice-block li{
+    border-radius: 1em;
+}
+
+.red-dot{
+    font-size: 3em;
+}
+
+.active{
+    display: inline-block;
+}
+
+.active:before{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #dc3545;
+    margin: 0 auto;
+}
